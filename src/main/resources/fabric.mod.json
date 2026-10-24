@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "realistic-water",
+	"version": "${version}",
+	"name": "Realistic Water (1.20.6 port, modified version)",
+	"description": "UNOFFICIAL modified port of Realistic Water by Skaffy to Minecraft 1.20.6. Gameplay blocks only; the Vulkan renderer is not included. Original: https://github.com/sskaffy/Realistic-Water",
+	"authors": [
+		"Skaffy (original author)"
+	],
+	"contact": {
+		"homepage": "https://github.com/sskaffy/Realistic-Water",
+		"sources": "https://github.com/sskaffy/Realistic-Water"
+	},
+	"license": "Custom License (see LICENSE)",
+	"icon": "assets/realistic-water/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.skaffy.RealisticWater"
+		],
+		"client": [
+			"me.skaffy.client.RealisticWaterClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

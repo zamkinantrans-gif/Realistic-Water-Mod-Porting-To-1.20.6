@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "realistic-water:realistic_sand",
+          "properties": {
+            "layers": "8"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "realistic-water:realistic_sand"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "realistic-water:blocks/realistic_sand"
+}
